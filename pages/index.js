@@ -6,7 +6,7 @@ import 'normalize.css';
 const Home = () => {
   return (
     <div className={style.boardContainer}>
-      <h1>My Kanban Board</h1>
+      <h1>Kanban Board</h1>
       <div className={style.listContainer}>
         <List />
         <List />
