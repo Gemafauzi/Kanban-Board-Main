@@ -1,14 +1,16 @@
 import React from 'react'
 import CoverImage from './CoverImage'
 import Meta from './Meta'
-import styleList from './list.module.css'
 
 const Header = () => {
   return (
-    <div className={styleList.headerContainer}>
-        <CoverImage className={styleList.coverImageContainer}/>
+    <>
+      <div class="card-body">
+        <CoverImage />
         <Meta />
-    </div>
+      </div>
+        
+    </>
   )
 }
 

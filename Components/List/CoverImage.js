@@ -1,13 +1,15 @@
 import React from 'react'
 import Image from 'next/image'
-import CoverPic from '../../public/images/cover-01.png'
-import styleList from './list.module.css'
 
 const CoverImage = () => {
   return (
-    <div className={styleList.coverImageContainer} >
-      <Image className={styleList.imageContainer} alt={CoverPic} src={CoverPic} height={140}/>
-    </div>
+    <Image
+      src='/images/cover-01.png'
+      alt="cover"
+      width="362px"
+      height="115px"
+      className='rounded'
+    />
   )
 }
 

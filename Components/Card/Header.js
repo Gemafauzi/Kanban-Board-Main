@@ -1,15 +1,20 @@
 import React from 'react'
-import styleCard from './card.module.css'
 
 const Header = () => {
   return (
-    <div className={styleCard.headerContainer}>
-      <div className={styleCard.headerTitle}>
-        Not Started
+    <div className='container-header'>
+      <div className='row'>
+        <div className='col-6'>
+          <p className='text-head-card'>Not Started</p>
+        </div>
+        <div className='col-6'>
+          <div class="box-expire" role="alert">
+            <p className='text-center text-head2-card'>Expire on 24th June</p> 
+          </div>
+        </div>
       </div>
-      <div className={styleCard.headerExpires}>
-        Expire on 24th jun
-      </div>
+      
+      
     </div>
   )
 }
